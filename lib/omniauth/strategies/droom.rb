@@ -9,7 +9,7 @@ module OmniAuth
       option :provider_ignores_state, true
       option :fields, [:name, :forename, :email, :phone, :admin, :image]
       option :client_options, {
-        :site => ENV['droom_host'],
+        :site => "https://int.croucher.org.hk",
         :authorize_url => "/oauth/authorize"
       }
 
