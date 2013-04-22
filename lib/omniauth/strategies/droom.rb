@@ -4,7 +4,6 @@ require 'multi_json'
 module OmniAuth
   module Strategies
     class Droom < OmniAuth::Strategies::OAuth2
-      class NoAuthorizationCodeError < StandardError; end
 
       option :name, :droom
       option :provider_ignores_state, true

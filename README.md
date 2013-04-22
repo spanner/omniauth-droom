@@ -2,6 +2,16 @@
 
 OAuth2 Strategy for OmniAuth 1.0 and the data room
 
+# Usage
+
+    require 'omniauth/strategies/droom'
+    config.omniauth :droom, ENV['droom_app_key'], ENV['droom_app_secret']
+
+# Configuration
+
+    ENV['droom_app_key']
+    ENV['droom_app_secret']
+    ENV['droom_host']
 
 ## License
 

@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   s.authors  = ['William ROss']
   s.email    = ['will@spanner.org']
   s.summary  = 'Droom strategy for OmniAuth'
+  s.description  = 'Makes it easy for another application to use the oauth provider built into the data room.'
   s.homepage = 'https://github.com/spanner/omniauth-droom'
   s.license  = 'MIT'
 
